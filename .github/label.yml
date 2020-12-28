@@ -1,0 +1,6 @@
+react-wizard:
+  - packages/react-wizard/*
+  - packages/react-wizard/**/*
+
+mtdev:
+  - ./*
