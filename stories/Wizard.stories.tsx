@@ -1,8 +1,8 @@
 import React from "react";
 import { Meta, Story } from "@storybook/react/types-6-0";
 import { action } from "@storybook/addon-actions";
-import { Wizard, WizardProps } from "../components";
-import { useWizard, useWizardStep } from "../hooks";
+import { Wizard, WizardProps } from "../packages/react-wizard/src";
+import { useWizard, useWizardStep } from "../packages/react-wizard/src";
 
 export default {
   title: "Wizard",
