@@ -1,10 +1,15 @@
 {
   "name": "@mtdev/react-wizard",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A UI-free React Wizard package",
   "author": "Marco Tisi",
   "homepage": "https://github.com/marcotisi/mtdev/tree/main/packages/react-wizard",
-  "keywords": ["react", "wizard", "hooks", "ui-free"],
+  "keywords": [
+    "react",
+    "wizard",
+    "hooks",
+    "ui-free"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/marcotisi/mtdev.git",
@@ -29,7 +34,7 @@
     "react-dom": "^16.8.0"
   },
   "dependencies": {
-    "@mtdev/utils": "^1.0.2",
+    "@mtdev/utils": "^1.0.3",
     "tslib": "^2.0.0"
   },
   "publishConfig": {
