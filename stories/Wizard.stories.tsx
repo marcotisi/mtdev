@@ -117,6 +117,7 @@ const Template: Story<WizardProps> = args => (
       <Step color="#10b981" />
       <Step color="#ef4444" />
       <Step color="#64748b" />
+      <Step color="#f97316" />
     </Wizard.Steps>
     <Footer />
   </Wizard>
