@@ -1,11 +1,13 @@
 {
   "name": "@mtdev/react-wizard",
   "version": "1.0.2",
-  "description": "A primitive React Wizard package",
+  "description": "A UI-free React Wizard package",
   "author": "Marco Tisi",
+  "homepage": "https://github.com/marcotisi/mtdev/tree/main/packages/react-wizard",
+  "keywords": ["react", "wizard", "hooks", "ui-free"],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marcotisi/mtdev.git",
+    "url": "https://github.com/marcotisi/mtdev.git",
     "directory": "packages/react-wizard"
   },
   "scripts": {

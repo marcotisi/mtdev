@@ -3,9 +3,11 @@
   "version": "1.0.2",
   "description": "Internal, shared utilities",
   "author": "Marco Tisi",
+  "homepage": "https://github.com/marcotisi/mtdev/tree/main/packages/utils",
+  "keywords": ["utils", "utilities", "hooks"],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marcotisi/mtdev.git",
+    "url": "https://github.com/marcotisi/mtdev.git",
     "directory": "packages/utils"
   },
   "scripts": {
