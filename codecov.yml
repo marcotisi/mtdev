@@ -4,13 +4,13 @@ coverage:
     project:
       default: false
       react-wizard:
-        target: 90%
+        target: 80%
         flags:
           - react-wizard
         if_not_found: success
         if_ci_failed: error
       utils:
-        target: 90%
+        target: 80%
         flags:
           - utils
         if_not_found: success
@@ -20,8 +20,8 @@ flags:
   react-wizard:
     paths:
       - packages/react-wizard/src
-    carryforward: true
+    carryforward: false
   utils:
     paths:
       - packages/utils/src
-    carryforward: true
+    carryforward: false
