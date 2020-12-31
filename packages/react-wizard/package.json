@@ -1,6 +1,6 @@
 {
   "name": "@mtdev/react-wizard",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A primitive React Wizard package",
   "author": "Marco Tisi",
   "repository": {
@@ -27,7 +27,7 @@
     "react-dom": "^16.8.0"
   },
   "dependencies": {
-    "@mtdev/utils": "^1.0.1",
+    "@mtdev/utils": "^1.0.2",
     "tslib": "^2.0.0"
   },
   "publishConfig": {
