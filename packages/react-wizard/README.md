@@ -1,6 +1,7 @@
 # React Hooks Wizard
 
 [![Stable release](https://img.shields.io/npm/v/@mtdev/react-wizard.svg)](https://npm.im/@mtdev/react-wizard)
+[![codecov](https://codecov.io/gh/marcotisi/mtdev/branch/main/graph/badge.svg?token=57DD0LENB1&flag&react-wizard)](https://codecov.io/gh/marcotisi/mtdev/tree/main/packages/react-wizard/src)
 
 A UI-free React Wizard package. Stop overriding css/components and build your own Wizard!
 
