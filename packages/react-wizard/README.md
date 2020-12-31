@@ -5,6 +5,10 @@
 
 A UI-free React Wizard package. Stop overriding css/components and build your own Wizard!
 
+## Demo
+
+Click [here](https://main--5fedd6d82ff63b0021fec647.chromatic.com/?path=/story/wizard--default) for the latest demo.
+
 ## Quick start
 
 1. Install `@mtdev/react-wizard`:
