@@ -1,0 +1,27 @@
+coverage:
+  status:
+    patch: off
+    project:
+      default: false
+      react-wizard:
+        target: 90%
+        flags:
+          - react-wizard
+        if_not_found: success
+        if_ci_failed: error
+      utils:
+        target: 90%
+        flags:
+          - utils
+        if_not_found: success
+        if_ci_failed: error
+
+flags:
+  react-wizard:
+    paths:
+      - packages/react-wizard/src
+    carryforward: true
+  utils:
+    paths:
+      - packages/utils/src
+    carryforward: true

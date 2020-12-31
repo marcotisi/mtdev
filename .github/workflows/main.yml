@@ -25,5 +25,16 @@ jobs:
       - name: Test
         run: yarn test --ci --coverage --maxWorkers=2
 
-      - name: Upload coverage to Codecov
+      - name: Upload coverage to Codecov (react-wizard)
         uses: codecov/codecov-action@v1
+        with:
+          directory: ./packages/react-wizard/coverage
+          flags: react-wizard
+          verbose: true
+
+      - name: Upload coverage to Codecov (utils)
+        uses: codecov/codecov-action@v1
+        with:
+          directory: ./packages/utils/coverage
+          flags: utils
+          verbose: true
